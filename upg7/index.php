@@ -6,6 +6,8 @@ $games = $pdo->query('SELECT * FROM games');
 if(isset($_POST['user-login'])){
   $return = $user->login($_POST['uname'], $_POST['upass']);
 }
+
+
 ?>
 
 <div class="container-fluid">
